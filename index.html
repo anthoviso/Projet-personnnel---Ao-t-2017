@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+		<meta charset="UTF-8">
+		<meta name="description" content="The check list">
+		<meta name="keywords" content="Anthony, visocchi, check, list">
+		<meta name="author" content="Anthony Visocchi">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<title>The Check list</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="lib/font-awesome-4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+	</head>
+	<body class="zoomThree">
+		<div id="objects">
+			<div class="ObjectCheckList">Check list<br/><br/>- functions : animate, clear, diary, stop<br/><br/>- codes : 0121321, 15465<br/><br/>- find my pen<br/>- Problem with a key</div>
+		</div>
+		<div class="zoomIt">
+			<i class="fa fa-search-plus faZoom" aria-hidden="true"></i>
+		</div>
+		<span class="warningMessage">Attention cette technologie requiert un navigateur récent et de préférence l'utilisation de Chrome.</span><br/>
+		<input id="rangeZ" type="range" min="-90" max="-10" value="-45" name="rangeZ" class="slider"  />
+		<input id="rangeX" type="range" min="20" max="100" value="60" name="rangeX" class="slider" style="transform: rotate(90deg);margin: 100px 0px;width: 6rem;"/>
+		<div id="perspective" class="rotated">
+			<pre class="containerScreenBack" ><div class="divCheck">Check list<br/><br/>- functions : animate, clear, diary, stop<br/><br/>- codes : 0121321, 15465<br/><br/>- find my pen<br/>- Problem with a key</div>
+				<div class="screenBackWall"></div>
+			</pre>
+			<div class="containerComputerSocket">
+				<div class="ComputerSocketCircle">
+					<div class="ComputerSocketCircleCircle"></div>
+					<div class="ComputerSocketCircleCircle"></div>
+				</div>
+			</div>
+			<pre class="containerBookOne">
+				<div class="containerBook">a book</div>
+			</pre>
+			<pre class="containerTower">
+				<div class="theTower">
+					<span class="towerButton buttonOn"></span>
+				</div>
+			</pre>
+			<pre class="containerScreen">
+				<div id="theScreen" class="theScreen">
+					<div class="systemFailure">
+						<span class="failureTxt" >SYSTEM FAILURE</span><br/>
+						<span id="timer"></span>
+					</div>
+					<span class="codeTxt" style="padding: 3px;">CODE :<span class="block__back"></span></span>
+					<span class="toReceive"></span>
+				</div>
+			</pre>
+			<pre class="container" style="    zoom: 0.8;left:187px !important;">
+				<div class="toAct ligKeys">
+					<span class="block pink gap redScreen" id="case-Escape">Echap<span class="block__back"></span></span>
+					<span class="block purple" id="case-animation">  <span class="block__back"></span></span>
+					<span class="block white">  <span class="block__back"></span></span>
+					<span class="block orange">  <span class="block__back"></span></span>
+					<span class="block white gap">  <span class="block__back"></span></span>
+					<span class="block silver">  <span class="block__back"></span></span>
+					<span class="block white">  <span class="block__back"></span></span>
+					<span class="block silver">  <span class="block__back"></span></span>
+					<span class="block silver toExecute" id="case-Enter">Enter<span class="block__back"></span></span>
+				</div>
+				<div  class="ligKeys">
+					<div style="-webkit-transform-style: preserve-3d;transform-style: preserve-3d;width: 495px;">
+						<div class="toWrite ligKeys">
+							<span class="block silver" id="case-a">a<span class="block__back"></span></span>
+							<span class="block white" id="case-z">z<span class="block__back"></span></span>
+							<span class="block silver" id="case-e">e<span class="block__back"></span></span>
+							<span class="block white" id="case-r">r<span class="block__back"></span></span>
+							<span class="block silver" id="case-t">t<span class="block__back"></span></span>
+							<span class="block white" id="case-y">y<span class="block__back"></span></span>
+							<span class="block silver" id="case-u">u<span class="block__back"></span></span>
+							<span class="block white" id="case-i">i<span class="block__back"></span></span>
+							<span class="block silver" id="case-o">o<span class="block__back"></span></span>
+							<span class="block white gap" id="case-p">p<span class="block__back"></span></span>
+							<span class="block orange gap toDel" id="case-Backspace">del<span class="block__back"></span></span>
+						</div>	
+						<div class="toWrite ligKeys">
+							<span class="block white" id="case-q">q<span class="block__back"></span></span>
+							<span class="block silver" id="case-s">s<span class="block__back"></span></span>
+							<span class="block white" id="case-d">d<span class="block__back"></span></span>
+							<span class="block silver" id="case-f">f<span class="block__back"></span></span>
+							<span class="block white" id="case-g">g<span class="block__back"></span></span>
+							<span class="block silver" id="case-h">h<span class="block__back"></span></span>
+							<span class="block white" id="case-j">j<span class="block__back"></span></span>
+							<span class="block silver" id="case-k">k<span class="block__back"></span></span>
+							<span class="block white" id="case-l">l<span class="block__back"></span></span>
+							<span class="block silver gap" id="case-m">m<span class="block__back"></span></span>
+							<span class="block white toUpScreen" id="case-ArrowUp">↑<span class="block__back"></span></span>
+							<span class="block silver" id="case-0">0<span class="block__back"></span></span>
+						</div>
+						<div class="toWrite ligKeys">
+							<span class="block silver" id="case-w">w<span class="block__back"></span></span>
+							<span class="block white" id="case-x">x<span class="block__back"></span></span>
+							<span class="block silver" id="case-c">c<span class="block__back"></span></span>
+							<span class="block white" id="case-v">v<span class="block__back"></span></span>
+							<span class="block silver" id="case-b">b<span class="block__back"></span></span>
+							<span class="block white" id="case-n">n<span class="block__back"></span></span>
+							<span class="block white toSpace gap" id="case-">spacebar<span class="block__back"></span></span>
+							<span class="block white toLeftScreen" id="case-ArrowLeft">←<span class="block__back"></span></span>
+							<span class="block white toDownScreen" id="case-ArrowDown">↓<span class="block__back"></span></span>
+							<span class="block white toRightScreen" id="case-ArrowRight">→<span class="block__back"></span></span>
+						</div>
+					</div>	
+					<div style="-webkit-transform-style: preserve-3d;transform-style: preserve-3d;width: 120px;">
+						<div class="toWrite ligKeys" >						
+							<span class="block silver" id="case-7">7<span class="block__back"></span></span>
+							<span class="block white"id="case-8">8<span class="block__back"></span></span>
+							<span class="block silver" id="case-9">9<span class="block__back"></span></span>
+						</div>
+						<div class="toWrite ligKeys">						
+							<span class="block white" id="case-4">4<span class="block__back"></span></span>
+							<span class="block silver" id="case-5">5<span class="block__back"></span></span>
+							<span class="block white" id="case-6">6<span class="block__back"></span></span>
+						</div>
+						<div class="toWrite ligKeys">						
+							<span class="block silver" id="case-1">1<span class="block__back"></span></span>
+							<span class="block white" id="case-2">2<span class="block__back"></span></span>
+							<span class="block silver" id="case-3">3<span class="block__back"></span></span>
+						</div>
+					</div>
+				</div>
+			</pre>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+	<!-- 2017 - Réalisé par <a href="https://www.linkedin.com/in/anthony-visocchi-50a830ba/">Anthony Visocchi</a> -->
+</html>
